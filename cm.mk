@@ -14,5 +14,5 @@ $(call inherit-product, device/htc/dlxub1/device_dlxub1.mk)
 PRODUCT_DEVICE := dlxub1
 PRODUCT_NAME := cm_dlxub1
 PRODUCT_BRAND := htc
-PRODUCT_MODEL := dlxub1
-PRODUCT_MANUFACTURER := htc
+PRODUCT_MODEL := HTC Butterfly
+PRODUCT_MANUFACTURER := HTC
