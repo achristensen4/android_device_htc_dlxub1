@@ -109,7 +109,7 @@ ro.ril.transmitpower=true
 ro.baseband.arch = mdm
 
 #Add default network type for phone reference
-ro.telephony.default_network=0
+ro.telephony.default_network=4
 
 #
 #Simulate sdcard on /data/media
@@ -119,7 +119,7 @@ persist.fuse_sdcard=true
 ro.clean_free_cluster_threshold = 8
 
 # Have external SD card
-  ro.sdcard2 = 1
+ro.sdcard2 = 0
 
 # DLX Hardware Info
 ro.product.bluetooth=4.0
@@ -128,12 +128,12 @@ ro.product.main_camera = 8M
 ro.product.front_camera = 2.1M
 ro.product.processor = Quadcore
 ro.product.ram = 2GB
-ro.product.wifi = 802.11 a/b/g/n
+ro.product.wifi = 802.11 b/g/n
 
 
 #wifi
 wifi.interface=wlan0
-wifi.supplicant_scan_interval=15
+wifi.supplicant_scan_interval=16
 wifi.softap.interface=wlan0
 wifi.softapconcurrent.interface=wl0.1
 persist.wifi.v6=true
@@ -161,7 +161,7 @@ persist.radio.snapshot_timer = 22
 ro.usb_host = 1
 
 # Preloading common control assets
-ro.preload.common=1
+ro.preload.common=0
 
 
 #
